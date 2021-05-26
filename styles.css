@@ -14,9 +14,8 @@ nav {
   height: 100px;
   padding: 0 5%;
   z-index: 10;
-  background-color: #581b98;
+  background: linear-gradient(to right, rgb(237, 33, 58), rgb(147, 41, 30));
   box-shadow: 3px 3px 5px black;
-  transition: 1s;
 }
 nav .logo {
   float: left;
@@ -48,15 +47,16 @@ nav .links a {
   padding: 1em;
   font-size: 15px;
   font-weight: 700;
-  color: #9c1de7;
+  color: gray;
   font-family: 'Righteous', cursive;
   text-shadow: 1px 1px 1px black;
   text-decoration: none;
-  transition:1s;
+  transition: 1s;
 }
 nav .links a:hover {
   text-shadow: none;
   transform: scale(1.2, 1.2);
+  color: #fff;
 }
 nav .links a:active {
   color: black;
@@ -78,6 +78,13 @@ nav .icon_burger .line {
   background-color: #fee715ff;
   margin: 5px;
   border-radius: 3px;
+}
+#home,
+#about,
+#service,
+#review {
+  height: 100vh;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   nav .logo {
