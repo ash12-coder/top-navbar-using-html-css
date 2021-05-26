@@ -75,7 +75,7 @@ nav .icon_burger {
 nav .icon_burger .line {
   width: 30px;
   height: 5px;
-  background-color: #fee715ff;
+  background-color: #fff;
   margin: 5px;
   border-radius: 3px;
 }
@@ -105,9 +105,8 @@ nav .icon_burger .line {
     width: auto;
     height: auto;
     overflow: hidden;
-    background-image: url('https://image.freepik.com/free-vector/set-products-circle-healthy-food-fruits-vegetables-nuts-cartoon-flat_313437-278.jpg');
     transition: all 1s ease-in-out;
-    background-size: cover;
+    background: linear-gradient(to right, rgb(195, 20, 50), rgb(36, 11, 54));
   }
   nav .links a {
     font-size: 20px;
